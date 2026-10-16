@@ -1,0 +1,22 @@
+# Node / dependencies
+node_modules/
+
+# Local environment secrets
+.env
+.env.*
+
+# Generated data / exports
+state.json
+network.json
+lesson-network.json
+api-dump.jsonl
+lesson-dump.jsonl
+page.html
+
+# Generated static vault output
+vault/
+
+# Logs and temp
+*.log
+*.tmp
+.DS_Store
