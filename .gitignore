@@ -12,8 +12,6 @@ lesson-network.json
 api-dump.jsonl
 lesson-dump.jsonl
 page.html
-
-# Generated static vault output
 vault/
 
 # Logs and temp
