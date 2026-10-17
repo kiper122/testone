@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const BASE = 'https://lessons.antischool.online/api/v1';
-const MATERIAL = '019fd3a5-4216-7963-8f74-6ce0aa472d7c';
+const MATERIAL = '019fd3a5-4216-7963-8f74-6ce0aa472d7c'; // 019fd82b-d7fb-7d58-97a8-26f8fdd314af
 const OUT = process.env.VAULT_DIR || './vault/CEFR Adults';
 const LIMIT = Number(process.env.LIMIT || 0);          // LIMIT=3 для пробного прогона
 

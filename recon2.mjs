@@ -15,7 +15,7 @@ page.on('response', async (r) => {
     try { await fs.appendFile('lesson-dump.jsonl', JSON.stringify({ u, body: await r.json() }) + '\n'); } catch {}
   }
 });
-await page.goto('https://lessons.antischool.online/materials/019fd3a5-4216-7963-8f74-6ce0aa472d7c');
+await page.goto('https://lessons.antischool.online/materials/019fd3a5-4216-7963-8f74-6ce0aa472d7c'); // 019fd82b-d7fb-7d58-97a8-26f8fdd314af
 console.log('Открой урок с видео и картинками, пролистай до конца, нажми Enter');
 await new Promise((r) => process.stdin.once('data', r));
 await fs.writeFile('lesson-network.json', JSON.stringify(seen, null, 2));

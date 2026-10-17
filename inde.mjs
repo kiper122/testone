@@ -2,7 +2,7 @@
 import { chromium } from 'playwright';
 import fs from 'node:fs/promises';
 
-const URL = 'https://lessons.antischool.online/materials/019fd3a5-4216-7963-8f74-6ce0aa472d7c';
+const URL = 'https://lessons.antischool.online/materials/019fd3a5-4216-7963-8f74-6ce0aa472d7c'; // 019fd82b-d7fb-7d58-97a8-26f8fdd314af
 const browser = await chromium.launch({ headless: false });
 const ctx = await browser.newContext();
 const page = await ctx.newPage();
